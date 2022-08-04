@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d340b28-1863-40e5-8bb8-f0c97fa1526c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Knapsack/01knapsackTDApproach.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Knapsack/01knapsack.py" beforeDir="false" afterPath="$PROJECT_DIR$/Knapsack/01knapsack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Knapsack/01KnapsackMemoization.py" beforeDir="false" afterPath="$PROJECT_DIR$/Knapsack/01KnapsackMemoization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Knapsack/01knapsackTDApproach.py" beforeDir="false" afterPath="$PROJECT_DIR$/Knapsack/01knapsackTDApproach.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +41,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.01knapsack">
+  <component name="RunManager" selected="Python.01knapsackTDApproach">
     <configuration name="01KnapsackMemoization" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DynamicProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -108,9 +107,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.01knapsack" />
         <item itemvalue="Python.01knapsackTDApproach" />
         <item itemvalue="Python.01KnapsackMemoization" />
+        <item itemvalue="Python.01knapsack" />
       </list>
     </recent_temporary>
   </component>
