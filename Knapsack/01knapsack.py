@@ -79,16 +79,19 @@ def ks2(wt, val, w, n):
     if n == 0 or w == 0:
         return 0
 
-    if wt[n] <= w:
+    if wt[n-1] <= w:
         return max(
-            val[n] + ks2(wt, val, w-wt[n], n-1 ),
-            ks2(wt, val, w - wt[n], n - 1)
+            val[n-1] + ks2(wt, val, w-wt[n-1], n-1 ),
+            ks2(wt, val, w, n - 1)
         )
-    elif wt[n] >= w:
-        return ks2(wt, val, w - wt[n], n - 1)
+    elif wt[n-1] > w:
+        return ks2(wt, val, w , n - 1)
 
 
-val = [60, 100, 120]
-wt = [10, 20, 30]
-
-print(ks2(wt, val, 50, len(val)-1))
+# val = [60, 100, 120]
+# wt = [10, 20, 30]
+val = [ 20, 5, 10, 40, 15, 25 ]
+wt = [ 1, 2, 3, 8, 7, 4 ]
+w = 10
+n = len(val)
+print(ks2(wt, val, w, n))
